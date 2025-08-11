@@ -23,7 +23,15 @@ type ExtensionPreferences = {
   /** Gather Device Information - Get MAC addresses, hostnames, and manufacturer details */
   "gatherDeviceInfo": boolean,
   /** Scan Open Ports - Check for open ports on discovered devices */
-  "scanPorts": boolean
+  "scanPorts": boolean,
+  /** Theme Preference - Choose your preferred theme for the interface */
+  "themePreference": "auto" | "light" | "dark",
+  /** Color Scheme - Choose your preferred color scheme */
+  "colorScheme": "blue" | "green" | "purple" | "orange" | "red",
+  /** Show Network Map - Display interactive network topology map */
+  "showNetworkMap": boolean,
+  /** Map Layout - Choose the layout style for the network map */
+  "mapLayout": "hierarchical" | "radial" | "grid"
 }
 
 /** Preferences accessible in all the extension's commands */
