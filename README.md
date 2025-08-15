@@ -2,6 +2,7 @@
 
 A powerful Raycast extension to scan your local network, detect assigned IP addresses, and get smart recommendations for available addresses to prevent IP conflicts.
 
+![IP Finder Main Interface](main-screenshot.png)
 
 ## Features
 
